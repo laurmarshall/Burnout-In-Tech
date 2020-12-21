@@ -81,7 +81,8 @@ This led to my final graph, a comparison of mental and physical health for 2019,
 
 
 ## Conclusion
-Both the perceived importance of mental health and physical health share the same peak. Outside of that value, physical health had a higher rating for all values to the right of the middle and mental health had a higher rating for all values to the left of the peak. In general this dataset brings up more questions than answers. 
+This data suggests that there is a need to improve the supports regarding brunout for employees in the tech industry. Understanding the siginifcance of concepts like stigma and perceived importance are important factors to explore further.
+Both the perceived importance of mental health and physical health share the same peak. Outside of that value, physical health had a higher rating for all values to the right of the middle and mental health had a higher rating for all values to the left of the peak. This suggests that while physical health is perceived to be valued by the employer, mental is not in comparison. In general this dataset brings up more questions than answers. The high rate of null values are something to consider when making conclusions about this data as well.
 
 ## Questions and Future Study
 How can a dataset with limited absence of responses be obtained to generate a hypothesis test? There were too many imbalanced classes.
