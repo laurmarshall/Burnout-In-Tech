@@ -1,7 +1,7 @@
 # Burn Baby Burn
 ## Burnout in the Tech Industry
 ## Lauren Marshall, Data Scientist
-![LinkedIn](https://www.linkedin.com/in/lauren-marshall-7603491b5/)|![GitHub](https://github.com/laurmarshall)|![Slides]()
+[LinkedIn](https://www.linkedin.com/in/lauren-marshall-7603491b5/)|[GitHub](https://github.com/laurmarshall)|[Slides]()
 ## Background and Motivation
 Burnout is the result of excessive and prolonged stress in the workplace. It impacts you physically, emotionally, and mentally. It has a negative impact on work performance as well.
 Coined in the 1970’s by American psychologist Herbert Freudenberger, it is a relatively new concept. A general dfinition of burnout is the result of excessive and prolonged stress in the workplace. The impact it can have on a person includes symptoms such as lower productivity, fatigue, insomnia, detached relationships, vulnerability to illness, and many more. Burnout was recently recognized as a medical diagnosis, Burnout Syndrome, in 2019.
@@ -14,9 +14,49 @@ As a result much of the data is non-numerical. Responses were not required and a
 
 
 ## Exploratory Data Analysis
-![Conversation With Employer](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/Conversation%20With%20Employeer.png)
+![Supports for Mental Health](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/word%20cloud%20with%20employee%20supports.png)
+
+I started by generating a few WordClouds, one of which answers the prompt: Briefly describe what you think the industry as a whole and/or employers could do to improve mental health support for employees. 
+
+Some examples of responses:
+- They don't take it seriously
+- raise awareness, talk about it to lessen the stigma
+- Education and awareness, statistics, add supportive writing to the company handbook
+
+The word cloud includes the top 25 responses. Some of the unique keys words that are worth noting include: support, awareness, need, better, culture, stigma, and help. These are important concepts for companies to think about. How does a company's culture impact burnout? Is there a stigma? How is awareness communicated? What are employees needing? What can a company do better to support employees?
+
+
+This word cloud was in response to the prompt:
+
+![Negative Response](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/Neagtive%20Burnout%20Response.png)
+
+This word cloud was in response to the prompt: Describe the circumstances of the badly handled or unsupportive response.
+
+Some examples of responses:
+- During a discussion about "mental health first aider" at work, a coworker dismissed the whole idea, saying that "no one here suffers from Mental Health Disorder
+- I was suffering depression and I was open about that, that is why my numbers fell, but then I started drinking too much and admitted myself into a detox/psych facility to get better... 5 days later I get out to find myself fired
+
+There was a similar prompt: Describe the circumstances of the supportive or well handled response. Unfortunately, I was unable to make a word cloud for question because there were no responses. This brings up a couple of questions, is this because it was not a valid sample, were there actually no positive response, or is there another factor to consider.
+
+![Conversation about Mental Health with Coworkers](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/Conversation%20about%20Mental%20Health%20with%20Coworkers.png)
+
+This word cloud was in response to the prompt: Describe the conversation with coworkers you had about your mental health including their reactions.
+
+Some examples of responses:
+- Spoke about my anxiety they were very supportive
+- the coworker was comprehensive, empathetic and understanding
+- They all seemed understanding and some even admitted to having some issues themselves
+- I've discussed mental illness with coworkers not in my business unit whom I have a primarily social relationship with. Even then I speak in very vague terms ("I'm not doing great this week", "have some mental health stuff going on"). One of the coworkers I play board games with during lunch on Fridays has expressed concern when I'm not in the office for board games or for the weekly catered lunch. They've been supportive, but also had the deer-in-headlights "I have no clue what to say here" look that makes me hesitant to share in the future. I'm not comfortable sharing information about my mental health with the folks I work with on a daily basis.'
+
+
+![Conversation about Mental Health With Employer](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/Conversation%20With%20Employeer.png)
 
 This word cloud was generated in response to the prompt: Describe the conversation you had with your employer about your mental health, including their reactions and what actions were taken to address your mental health issue/questions.
+
+Some examples of responses:
+- The conversation went well, he too suffers mental illness... however, I was just fired for having a mental illness episode and not being about to get my work done.
+- My current manager will be retiring in the next few months. We've talked about my mental illness and related mental health issues, but I'd be a lot less comfortable talking about it with my new/next manager. During a period when I wasn't doing well, my manager didn't feel like they could ask about how I was doing, or about what kind of support would be helpful. They were relieved when I (without a direct ask from them) let them know that I was not actively suicidal. They talked through some options with me, and expressed that it would be okay for me to take a leave-of-absence for a mental illness (with proper documentation). I navigated setting up intermittent FMLA leave on my own, with the LOA company that our company outsources all LOA-related info to. Several months into this, my manager and my future manager let me know that HR is hustling to make an intermittent-LOA policy because no one else in the company of 10,000+ people has ever taken FMLA leave on an intermittent basis. I let them know that $outsource_company has been tracking my leave, and that they had no problems setting it up under the existing FMLA policies. I'm seriously considering negotiating down to part time work because I don't want to spend my energy navigating the medical/legal parts of the healthcare/leave system. I'd rather get paid for the work I can do well then fight for accommodation.
+
 
 ![Rating of Support for Mental Health in Tech](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/images/Rating%20of%20Support%20for%20Mental%20Health%20in%20Tech.png)
 
@@ -44,5 +84,5 @@ Both the perceived importance of mental health and physical health share the sam
 ## Questions and Future Study
 How can a dataset with limited absence of responses be obtained to generate a hypothesis test? There were too many imbalanced classes.
 How does the tech industry compare to other fields? Another [survey](https://www.teamblind.com/blog/index.php/2018/05/29/close-to-60-percent-of-surveyed-tech-workers-are-burnt-out-credit-karma-tops-the-list-for-most-employees-suffering-from-burnout/) suggests that 60% of people in the tech industry are struggling with burnout, compared to 44% of [physicians](https://www.ama-assn.org/practice-management/physician-health/physician-burnout-which-medical-specialties-feel-most-stress).
-How can a measurable value be established for burnout? Since this survey is 
+How can a measurable value be established for burnout? Since this survey is largely qualitative in nature it can be hard to measure. But on the otherhand, the responses are very telling and imformative of issues like stigma (which could be challenging to quantify) around mental health.
 What are action responses that can be implemented with better data? The word clouds generated suggest that steps do need to be taken. Focusing on improving the culture, reducing stigma, and increasing awareness are a few ways companies can take a step forward the help reduce burnout in their employees.
